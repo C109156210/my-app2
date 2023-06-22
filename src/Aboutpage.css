@@ -1,0 +1,65 @@
+.profile-image {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: -75px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 50px;
+    height: 280px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .card1-container {
+    display: flex;
+    justify-content: space-between; /* 將卡片水平間距均分 */
+    gap: 20px; /* 卡片之間的間距 */
+  }
+  
+  .card1 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 50px;
+    flex-basis: calc(33.33% - 20px); /* 將卡片寬度均分 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  .card1 li {
+    list-style-type: square;
+    margin-top: 10px;
+    font-size: 16px;
+    
+  }
+  .card1 h2,
+  .card1 p {
+  text-align: left;
+}
+  
+  .text-content {
+    margin-left: 450px; 
+    margin-top: -150px; 
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  .title {
+    position: relative;
+    margin-left: 450px;
+  }
+
+  .birthday {
+    display: flex;
+    align-items: center;
+  }
+  
+  .birthday svg {
+    margin-right: 5px; 
+    vertical-align: middle; 
+  }
+  
